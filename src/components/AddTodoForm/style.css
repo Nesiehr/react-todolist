@@ -1,0 +1,44 @@
+.add-todo-form {
+  display: block;
+  flex: 1 37rem;
+}
+
+.add-todo-input {
+  transition: ease-in-out .2s;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  padding: .25rem;
+  font-size: 1.1rem;
+  width: 15rem;
+}
+
+.add-todo-input:focus {
+  outline: none;
+  width: 20rem;
+}
+
+.add-todo-button {
+  transition: ease-in-out .25s;
+  box-sizing: border-box;
+  padding: .25rem 0px;
+  width: 3rem;
+  text-align: center;
+  margin-left: 1rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+  border: none;
+  border: .1rem solid #ccc;
+  border-radius: 2.5px;
+  background-color: #fff;
+  color: #aaa;
+}
+
+.add-todo-button:hover {
+  border: .1rem solid #61DAFB;
+  color: #61DAFB;
+}
+
+.add-todo-button:focus {
+  outline: none;
+}
