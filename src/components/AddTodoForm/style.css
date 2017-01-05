@@ -1,6 +1,5 @@
 .add-todo-form {
   display: block;
-  flex: 1 37rem;
 }
 
 .add-todo-input {
@@ -35,8 +34,8 @@
 }
 
 .add-todo-button:hover {
-  border: .1rem solid #61DAFB;
-  color: #61DAFB;
+  border: .1rem solid #365899;
+  color: #365899;
 }
 
 .add-todo-button:focus {

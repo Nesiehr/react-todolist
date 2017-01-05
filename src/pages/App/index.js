@@ -15,7 +15,7 @@ class App extends Component {
     super(props);
     this.handleSubmit = this.handleSubmit.bind(this);
     this.handleChange = this.handleChange.bind(this);
-    this.state = {items: [], text: ''}
+    this.state = {items: [], text: '', showCompleted: false}
   }
 
   render() {
@@ -41,6 +41,7 @@ class App extends Component {
     e.preventDefault();
     var newItem = {
       text: this.state.text,
+      complete: false,
       id: Date.now()
     };
     if (this.state.text != '') {
