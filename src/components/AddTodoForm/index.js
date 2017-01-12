@@ -1,7 +1,6 @@
 import React, { PropTypes, Component } from 'react';
-import classnames from 'classnames';
 
-import './style.css';
+import './AddTodoForm.css';
 
 class AddTodoForm extends Component {
   render() {
@@ -12,6 +11,12 @@ class AddTodoForm extends Component {
       </form>
     )
   }
+}
+
+AddTodoForm.propTypes = {
+  addTodo: PropTypes.func,
+  changeText: PropTypes.func,
+  text: PropTypes.string
 }
 
 export default AddTodoForm;
